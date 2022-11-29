@@ -5,15 +5,18 @@ print(3+5)
 # Write a print statement that uses the division operator / 
 print(10/2)
 # Add a print statement that uses multiplication *
-print(5*3)
+print(2*3)
 # Create a variable called `length` and assign a value to it
-length = 30
+length = 2
 # Create a variable called    `width` and assign a value to it
-width = 20
+width = 4
 # Create a variable called `area` and assign to it the multiplication of `length` and `width`
 area = length * width
 # Print `area` in the following: "The result is " followed by the `area` variable
-print(area)
+print(f'the result is {area}')
 
-# BONUS: Print the area in the following syntax: "If the length of a rectangle is 5, and width is 3 then the area is: 15". Keep in mind that you should replace the numbers with their respective variables. 
+# BONUS: Print the area in the following syntax: "If the length of a rectangle is 5, and width is 3 then the area is: 15". Keep in mind that you should replace the numbers with their respective variables.
+length = 5
+width = 3
+area = length * width 
 print(f"if the length of a rectangle is {length}, and the width is {width}, then the area is: {area}")
